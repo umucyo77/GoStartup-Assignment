@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GoStartup</title>
+</head>
+
+<body class="bg-gray-800 ">
+    <nav class="flex items-center justify-between p-4 bg-gray-400 shadow">
+
+        <div class="text-lg font-bold"><a href="#" class="text-gray-700 text-4xl">GoStartup</a></div>
+
+        <div class="flex items-center gap-10">
+            <a href="#" class="text-gray-700 hover:text-blue-500 text-xl">Home</a>
+            <a href="#" class="text-gray-700 hover:text-blue-500 text-xl">Feature</a>
+            
+
+            <el-dropdown class="inline-block ">
+                <a href="#" class="inline-flex w-full justify-center gap-x-1.5  text-gray-700 px-3 py-2 text-sm  text-xl shadow-xs inset-ring-1 inset-ring-gray-300 hover:bg-gray-50">
+                    Pages
+                    
+                </a>
+
+                <el-menu anchor="bottom end" 
+                    class=" w-56 origin-top-right rounded-md bg-white shadow-lg outline-1 outline-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+                    <div class="py-1 hidden">
+                        <a href="#"
+                            class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Account
+                            settings</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Support</a>
+                        <a href="#"
+                            class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">License</a>
+                        <form action="#" method="POST">
+                            <button type="submit"
+                                class="block w-full px-4 py-2 text-left text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Sign
+                                out</button>
+                        </form>
+                    </div>
+                </el-menu>
+            </el-dropdown>
+
+            <el-menu anchor="bottom end" popover
+                class="w-56 origin-top-right rounded-md bg-white shadow-lg outline-1 outline-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+                <div class="py-1">
+                    <a href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Account
+                        settings</a>
+                    <a href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Support</a>
+                    <a href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">License</a>
+                </div>
+            </el-menu>
+
+
+
+
+            <a href="#" class="text-gray-700 hover:text-blue-500 text-xl">Support</a>
+
+        </div>
+
+
+        <button class="bg-blue-500 text-white px-3 py-2 mx-6 rounded text-xl">Sign In</button>
+        <button class="bg-blue-500 text-white px-4 py-2 mx-10 rounded text-xl">Sign Up</button>
+    </nav>
+
+    <main>
+        <section class="bg-gray-800  ">
+            <div class="grid grid-cols-2">
+                <div class=" rounded-lg text-white ">
+                    <h5 class="text-2xl ">Tailwind Template for Startups</h5>
+                    <h1 class="text-5xl ">Digital Solutions for Your Business</h1>
+                    <p>Handcrafted Tailwind CSS template for your next - Startup, Business, Agency or SaaS Website. </p>
+                    <p>- Startup, Business, Agency or SaaS Website.</p>
+                    <p>Comes with refreshing design and everything you need to kickstart your next web project.</p>
+                </div>
+                <div class=" bg-[url(image-2.jpg)] bg-local ... ">
+                    <img src="image-1.jpg" alt="my code" class="bg-linear-to-t">
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>
